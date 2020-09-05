@@ -26,12 +26,12 @@
   "author": "Sonahit <https://github.com/Sonahit>",
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "^10.1.0",
-    "@angular/compiler": "^10.1.0",
-    "@angular/core": "^10.1.0",
-    "@angular/platform-browser": "^10.1.0",
-    "@angular/platform-browser-dynamic": "^10.1.0",
-    "@angular/router": "^10.1.0",
+    "@angular/common": "~10.0.14",
+    "@angular/compiler": "~10.0.14",
+    "@angular/core": "~10.0.14",
+    "@angular/platform-browser": "~10.0.14",
+    "@angular/platform-browser-dynamic": "~10.0.14",
+    "@angular/router": "~10.0.14",
     "rxjs": "^6.6.2"
   },
   "devDependencies": {
@@ -41,6 +41,6 @@
     "jest": "^26.4.2",
     "ts-jest": "^26.3.0",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "typescript": "~3.9.5"
   }
 }
