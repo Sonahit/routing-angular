@@ -2,7 +2,7 @@
   "name": "ng-routing-utils",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sonahit/routing-angular.git"
@@ -21,7 +21,10 @@
     "typescript"
   ],
   "scripts": {
-    "test": "jest --config ./test/jest-ts.json"
+    "test": "jest --config ./test/jest-ts.json",
+    "build": "tsc",
+    "postinstall": "tsc",
+    "postpublish": "tsc"
   },
   "author": "Sonahit <https://github.com/Sonahit>",
   "license": "MIT",
