@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/Sonahit/routing-angular.git"
   },
+  "maintainers": [
+    {
+      "name": "Sonahit",
+      "url": "https://github.com/Sonahit"
+    }
+  ],
   "engines": {
     "node": "^12.0.0",
     "yarn": ">= 1.0.0"
@@ -23,8 +29,7 @@
   "scripts": {
     "test": "jest --config ./test/jest-ts.json",
     "build": "tsc",
-    "postinstall": "tsc",
-    "postpublish": "tsc"
+    "postinstall": "tsc"
   },
   "author": "Sonahit <https://github.com/Sonahit>",
   "license": "MIT",
