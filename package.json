@@ -27,8 +27,12 @@
   "license": "MIT",
   "dependencies": {
     "@angular/common": "^10.1.0",
+    "@angular/compiler": "^10.1.0",
     "@angular/core": "^10.1.0",
-    "@angular/router": "^10.1.0"
+    "@angular/platform-browser": "^10.1.0",
+    "@angular/platform-browser-dynamic": "^10.1.0",
+    "@angular/router": "^10.1.0",
+    "rxjs": "^6.6.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.1",
