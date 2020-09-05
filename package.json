@@ -1,5 +1,5 @@
 {
-  "name": "@routing/angular",
+  "name": "ng-routing-utils",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -26,6 +26,7 @@
   "author": "Sonahit <https://github.com/Sonahit>",
   "license": "MIT",
   "dependencies": {
+    "@angular/common": "^10.1.0",
     "@angular/core": "^10.1.0",
     "@angular/router": "^10.1.0"
   },
