@@ -1,10 +1,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./dist",
-    "outDir": "./",
+    "baseUrl": "./",
+    "outDir": "./dist",
     "sourceMap": false,
     "declaration": true,
+    "declarationMap": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,

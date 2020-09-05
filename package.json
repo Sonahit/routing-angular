@@ -1,8 +1,9 @@
 {
   "name": "ng-routing-utils",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sonahit/routing-angular.git"
@@ -28,7 +29,8 @@
   ],
   "scripts": {
     "test": "jest --config ./test/jest-ts.json",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "author": "Sonahit <https://github.com/Sonahit>",
   "license": "MIT",
@@ -39,6 +41,8 @@
     "@angular/platform-browser": "~10.0.14",
     "@angular/platform-browser-dynamic": "~10.0.14",
     "@angular/router": "~10.0.14",
+    "@microsoft/api-extractor": "^7.9.12",
+    "global": "^4.4.0",
     "rxjs": "^6.6.2"
   },
   "devDependencies": {

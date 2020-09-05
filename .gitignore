@@ -5,6 +5,8 @@ node_modules/
 
 # Compiled
 dist/
-
+etc/
+temp/
 
 *.logs?
+

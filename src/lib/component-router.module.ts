@@ -1,11 +1,15 @@
 import { ModuleWithProviders, Type } from '@angular/core';
 import { RouterModule, Route } from '@angular/router';
-
+/**
+ * @public
+ */
 export type Options = {
   root: Route;
   components: (Type<any> & { routeConfig?: Route })[];
 };
-
+/**
+ * @public
+ */
 export class ComponentRouterModule {
   static forFeature({
     root,
