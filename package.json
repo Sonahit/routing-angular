@@ -2,7 +2,7 @@
   "name": "ng-routing-utils",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sonahit/routing-angular.git"

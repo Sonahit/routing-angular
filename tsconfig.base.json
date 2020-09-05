@@ -13,7 +13,10 @@
     "target": "es2016",
     "module": "es2020",
     "lib": ["es2018", "dom"],
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@angular/*": ["./node_modules/@angular/*"]
+    }
   },
   "exclude": ["dist", "node_modules"]
 }
