@@ -1,0 +1,37 @@
+{
+  "name": "@routing/angular",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sonahit/routing-angular.git"
+  },
+  "engines": {
+    "node": "^12.0.0",
+    "yarn": ">= 1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Sonahit/routing-angular/issues"
+  },
+  "keywords": [
+    "angular",
+    "routing",
+    "router",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sonahit <https://github.com/Sonahit>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/core": "^10.1.0",
+    "@angular/router": "^10.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "typescript": "^4.0.2"
+  }
+}
