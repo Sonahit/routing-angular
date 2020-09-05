@@ -21,7 +21,7 @@
     "typescript"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config ./test/jest-ts.json"
   },
   "author": "Sonahit <https://github.com/Sonahit>",
   "license": "MIT",
@@ -37,6 +37,10 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
   }
 }

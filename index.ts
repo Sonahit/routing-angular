@@ -1,2 +1,2 @@
-export * from './libs/component-router.module';
-export * from './libs/route.decorator';
+export * from './lib/component-router.module';
+export * from './lib/route.decorator';
